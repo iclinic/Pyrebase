@@ -26,7 +26,7 @@ class VersionCommand(Command):
         pass
 
     def run(self):
-        pass
+        print(version)
 
 setup(
     name='Pyrebase',

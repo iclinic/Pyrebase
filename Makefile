@@ -4,7 +4,7 @@ clean:
 	-find . -iname "*.py[ocd]" -delete
 	-find . -iname "__pycache__" -exec rm -rf {} \;
 	-rm -rf dist
-	-rm -rf python_cielo.egg-info
+	-rm -rf Pyrebase.egg-info
 
 build:
 	python setup.py sdist
