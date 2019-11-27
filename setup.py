@@ -29,7 +29,7 @@ class VersionCommand(Command):
         print(version)
 
 setup(
-    name='Pyrebase',
+    name='iclinic-Pyrebase',
     version=version,
     url='https://github.com/thisbejim/Pyrebase',
     description='A simple python wrapper for the Firebase API',
