@@ -12,4 +12,4 @@ build:
 release: build
 	git tag ${VERSION}
 	git push origin ${VERSION}
-	curl -F package=@dist/Pyrebase-${VERSION}.tar.gz https://${GEMFURY_PUSH_TOKEN}@push.fury.io/iclinic/
+	curl -F package=@dist/iclinic-Pyrebase-${VERSION}.tar.gz https://${GEMFURY_PUSH_TOKEN}@push.fury.io/iclinic/
