@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-Pyrebase.egg-info
+iclinic_Pyrebase.egg-info
 build
 dist
 test.py
