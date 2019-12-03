@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='iclinic-Pyrebase',
+    name='iclinic-pyrebase',
     version='1.0.0',
     url='https://github.com/thisbejim/Pyrebase',
     description='A simple python wrapper for the Firebase API',
